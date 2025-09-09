@@ -62,5 +62,5 @@ ImageDataGenerator solves memory issues by loading images in batches and provide
 
 The callback system ensures optimal training and prevents common issues like overfitting
 
-### The code implements a two-phase training approach: first training the classification head while keeping the base model frozen, then fine-tuning the entire network for optimal performance on the specific galaxy classification task.
+#### The code implements a two-phase training approach: first training the classification head while keeping the base model frozen, then fine-tuning the entire network for optimal performance on the specific galaxy classification task.
 
